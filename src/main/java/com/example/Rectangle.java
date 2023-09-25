@@ -5,6 +5,8 @@ public class Rectangle {
     private double width;
 
     public Rectangle(double length, double width) {
+        this.length=length+length;
+        this.width=width+width;
         // TODO: Initialize the length and width
     }
 
